@@ -1,4 +1,57 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white
+}
 
+h1 {
+   
+    color:grey;
+    font-family: Verdana;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+}
 
+footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+   
+}
+    
+
+.maindiv {
+    position: relative;
+    background-color: white;
+    color: black;
+    width: 475px;
+    height: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+.inputsdiv input {
+    margin-left: 130px;
+
+}
+
+.inputsdiv select {
+    margin-left: 130px;
+
+}
+
+.inputsdiv label {
+    position: absolute;
+}
+
+.inputsdiv {
+    margin-left: 50px;
+    margin-right: auto;
+    width: fit-content;   
+}
